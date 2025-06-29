@@ -1,0 +1,20 @@
+# Static Website Hosting on AWS
+
+This project hosts a static website using AWS S3, with a custom domain via Route 53 and optimized delivery through CloudFront CDN.
+
+## AWS Services Used
+- Amazon S3
+- Route 53
+- CloudFront
+- IAM
+
+## Features
+- Public static site hosting
+- Custom domain routing
+- Performance optimization with CDN
+
+## Setup
+1. Upload HTML/CSS to S3 bucket
+2. Configure bucket for website hosting
+3. Use Route 53 for domain routing
+4. Secure bucket with IAM policies
